@@ -1,0 +1,110 @@
+/* App.module.css */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f3e8ff, #dbeafe);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 800;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.formGroup {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #9333ea;
+  box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.2);
+}
+
+.addButton {
+  background-color: #9333ea;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.addButton:hover {
+  background-color: #7e22ce;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.todoItem {
+  display: flex;
+  items-center: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+
+.todoItem:hover {
+  background-color: #f3f4f6;
+}
+
+.checkbox {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+.todoText {
+  flex: 1;
+  color: #374151;
+}
+
+.completedText {
+  color: #9ca3af;
+  text-decoration: line-through;
+}
+
+.deleteButton {
+  color: #dc2626;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 1.5rem;
+}
